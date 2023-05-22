@@ -1,0 +1,10 @@
+   Console.Write("Digite a distância percorrida total (em km): ");
+            double d = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite o volume de combustível consumido: ");
+            double v = double.Parse(Console.ReadLine());
+
+            double consumo = d / v;
+
+            Console.WriteLine("O consumo médio do automóvel é de " + consumo + "  km/l.");
+
